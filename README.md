@@ -40,6 +40,22 @@ npm install
 gulp serve
 ```
 
+### Ubuntu Snap Development
+- install snapcraft, `sudo apt snapcraft`
+- build a snap
+
+```
+git clone https://github.com/opsdroid/opsdroid-desktop.git
+cd opsdroid-desktop
+snapcraft
+```
+
+- install and run it
+```
+sudo snap install opsdroid_0.2.7.snap --dangerous
+opsdroid-desktop
+```
+
 ## Contributing
 
 Pull requests are welcome!
